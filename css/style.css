@@ -1,0 +1,68 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+}
+
+header {
+	background-color: #464646;
+	height: 100px;
+	width: 100%;
+}
+
+h1 {
+	color: #fff;
+	font-size: 2em;
+	margin: 0 auto;
+	line-height: 100px;
+	text-align: center;
+}
+
+.state-button-container {
+	margin: 0 auto;
+	position: relative;
+	margin-top: 50px;
+	width: 200px;
+	border-radius: 50%;
+	font-size: 2em;
+	height: 200px;
+}
+
+#display {
+	text-align: center;
+	font-size: 60px;
+	height: 100px;
+	margin-top: 50px; 
+	color: #464646;
+}
+
+.state-1-class {
+	background-color: #D2B3C6;
+	color: #735868;
+	text-align: center;
+	line-height: 200px;
+	border-radius: 50%;
+}
+
+.state-2-class {
+	background-color: #735868;
+	color: #261D23;
+	text-align: center;
+	line-height: 200px;
+	border-radius: 50%;
+}
+
+.state-3-class {
+	background-color: #261D23;
+	color: #D2B3C6;
+	text-align: center;
+	line-height: 200px;
+	border-radius: 50%;
+}
+
+
+.state-1-class:after, 
+.state-2-class:after,
+.state-3-class:after {
+	font-family: 'FontAwesome';
+	content: '\f118';
+}
